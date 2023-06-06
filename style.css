@@ -1,0 +1,35 @@
+/* Achica la imagen principal*/
+.catsdogs {
+    width: 45%;
+}
+
+/* Centra la informacion */
+.titulo, .foto-principal, .vistas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo de titulos */
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkgreen;
+}
+
+
+/*  Perritos */
+.perro {
+    width: 350px;
+}
+
+/* Gatitos */
+.gato {
+    margin-left: 20px;
+    width: 210px;
+}
+
+/* Conejitos */
+.conejo {
+    margin-left: 20px;
+    width: 260px;
+}
