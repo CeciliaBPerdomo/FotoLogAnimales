@@ -1,3 +1,28 @@
+/* Barra de navegacion */
+ul {
+    list-style-type: none;
+    text-align: right;
+} 
+
+li {
+    display: inline;
+    text-align: right;
+    margin: 0 10px 0 0;
+
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+} 
+
+.navbar {
+    width: 40px;
+}
+
+a, a:hover{
+    text-decoration:none
+} 
+
 /* Achica la imagen principal*/
 .catsdogs {
     width: 45%;
@@ -13,7 +38,7 @@
 /* Estilo de titulos */
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:darkgreen;
+    color:darkslateblue
 }
 
 
@@ -36,4 +61,9 @@ h1 {
 .conejo {
     margin-left: 20px;
     width: 260px;
+}
+
+h3 {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
 }
